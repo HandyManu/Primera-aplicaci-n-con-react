@@ -15,6 +15,10 @@ import Formal from './Components/Formal.jsx';
 import Sexta from './Components/sexta.jsx';
 import Darks from './Components/darks.jsx';
 import Rain from './Components/Rainbow.jsx';
+import Tooltip from './Components/Tooltips.jsx';
+import Growing from './Components/growing.jsx';
+import Electrobutton from './Components/electrobutton.jsx';
+import Multibutton from './Components/multibutton.jsx';
 
 function App() {
   return (
@@ -46,9 +50,20 @@ function App() {
    <br/>
    <Sexta/>
    <br/>
+   <br/>
    <Darks/>
    <br/>
    <Rain/>
+   <br/>
+   <Tooltip/>
+   <br/>
+   <Growing/>
+   <br/>
+   <Electrobutton/>
+   <br/>
+   <Multibutton/>
+   <br/>
+   <progress/>
     </>
   );
 }
