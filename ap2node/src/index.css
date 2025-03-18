@@ -66,3 +66,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh; /* Ajusta la altura al 100% del viewport */
+  background-color: #f8f8f8; /* Color de fondo opcional */
+}
+
+.App h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem; /* Tamaño opcional, según tu preferencia */
+  color: #333; /* Cambia el color si lo deseas */
+}
